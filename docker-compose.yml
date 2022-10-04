@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    volumes:
+      - ./:/app
+    ports:
+     - "8088:8088"
+    environment:
+      NODE_ENV: ${NODE_ENV}
+      log__level: ${log__level}

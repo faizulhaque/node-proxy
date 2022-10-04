@@ -1,0 +1,9 @@
+{
+  "server": {
+    "port": 8099
+  },
+  "log": {
+    "level": "info",
+    "name": "node-proxy"
+  }
+}
